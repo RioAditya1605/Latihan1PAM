@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tugas1 PAM</string>
+
+    <string-array name="sp_operator">
+        <item>Pilih Operator</item>
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+</resources>
