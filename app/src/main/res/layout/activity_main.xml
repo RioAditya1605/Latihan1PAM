@@ -9,33 +9,13 @@
     tools:context=".MainActivity"
     tools:viewBindingIgnore="true" >
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Angka Pertama  "
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="30dp"
-        android:id="@+id/et_angka1"
-        android:inputType="number"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Angka Kedua  "
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="30dp"
-        android:id="@+id/et_angka2"
-        android:inputType="number"
-        />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="0"
         android:id="@+id/tv_hasil"
         android:layout_marginHorizontal="15dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="200dp"
         android:textAlignment="center"
         android:textSize="12pt"
         android:textColor="@color/cardview_dark_background"
